@@ -5,6 +5,7 @@ const NAMESPACE = 'cropper';
 const OtherCropper = $.fn.cropper;
 
 $.fn.cropper = function jQueryCropper(option, ...args) {
+  
   let result;
 
   this.each((i, element) => {
